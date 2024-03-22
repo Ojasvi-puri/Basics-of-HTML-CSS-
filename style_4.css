@@ -1,0 +1,65 @@
+.first_row{
+    display:flex;
+}
+.boxs_row_one{
+    height: 200px;
+    width:33%;
+    background-color: chocolate;
+    margin:2px;
+    padding: 4px;
+    color:white;
+    border-radius: 4px;
+}
+.boxs_rowone{
+    /* why not working??
+    height: 32%; */
+    height:3em;
+    width:33%;
+    background-color: rgb(214, 202, 195);
+    margin:2px;
+    padding: 4px;
+    color:chocolate;
+    border-radius: 4px;
+}
+.boxes_rowtwo{
+    height:3em;
+    width:25%;
+    background-color: rgb(211, 198, 189);
+    color:chocolate;
+    margin:2px;
+    padding: 4px;
+    border-radius: 4px;
+}
+.boxes_rowthree{
+    height:3em;
+    width:20%;
+    margin:2px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgb(213, 200, 191);
+    color:chocolate;
+}
+.second_row{
+    display: flex;
+}
+.boxes_row_two{
+    height:40px;
+    width:25%;
+    background-color: chocolate;
+    margin:2px;
+    padding: 4px;
+    color:white;
+    border-radius: 4px;
+}
+.third_row{
+    display: flex;
+}
+.boxes_row_three{
+    height:40px;
+    width:20%;
+    background-color: chocolate;
+    margin:2px;
+    padding: 4px;
+    color:white;
+    border-radius: 4px;
+}

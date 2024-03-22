@@ -1,0 +1,36 @@
+.outer{
+    height:140px;
+    width:95%;
+    border-radius: 15px;
+    background-color: lightskyblue;
+    margin-bottom: 20px;
+    margin-left: 20px;
+   text-align: center;
+}
+.inner1{
+    height:100px;
+    width:10%;
+    border-radius: 15px;
+    background-color: rgb(202, 221, 202);
+    position:relative;
+    left: 20px;
+    top: 20px;
+    float:left;
+    margin-right: 20px;
+}
+p{
+    padding-top: 20px;
+}
+.inner2{
+    height:100px;
+    width:10%;
+    border-radius: 15px;
+    background-color: rgb(202, 221, 202);
+    position:relative;
+    left: 20px;
+    top: 20px;
+    float:right;
+    
+    /* why not working */
+    margin-right: 20px; 
+}

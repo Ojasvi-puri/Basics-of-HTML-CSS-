@@ -1,0 +1,38 @@
+.container{
+    display:grid;
+    /* we'll divide our divvs in columns in fractions of 1 */
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap:10px;
+    grid-auto-rows: 100vh;
+}
+.c{
+   background-color: lightgreen;
+   color:white;
+   text-align: center;
+   padding-top: 10px;
+}
+.cont_2{
+    display: grid;
+    grid-template-rows:repeat(2,1fr);
+    grid-gap:10px;
+}
+.cont_3{
+    display: grid;
+    grid-template-rows:repeat(3,1fr);
+    grid-gap:10px;
+}
+.cont_4{
+    display: grid;
+    grid-template-rows:repeat(4,1fr) ;
+    grid-gap:10px;
+}
+.cont_5{
+    display: grid;
+    grid-template-rows:repeat(6,1fr) ;
+    grid-gap:10px;
+}
+.cont_6{
+    display: grid;
+    grid-template-rows:repeat(12,1fr) ;
+    grid-gap:10px;
+}

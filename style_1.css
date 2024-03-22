@@ -1,0 +1,40 @@
+/* box model */
+.box1,.box2{
+    height: 200px;
+    width:200px;
+    padding:30px;
+    font-weight: 700;
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border:2px solid black;
+    overflow: auto;
+}
+div:hover{
+    border:5px solid pink;
+}
+.box1{
+    background-color: brown;
+}
+.box2{
+    background-color: green;
+}
+/* lists */
+.list a{
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    color:pink;
+    float:left;
+}
+.list{
+    margin-top: 40px;
+    background-color: rgb(84, 39, 39);
+    overflow:hidden;
+}
+.list a:hover{
+    color:tomato;
+}
+.list a:visited{
+    color:yellow;
+}

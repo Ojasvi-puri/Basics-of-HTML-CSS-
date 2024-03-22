@@ -1,0 +1,33 @@
+.outer{
+    display: flex;
+}
+.left{
+    height: 100vh;
+    width:25vw;
+    padding: 15px;
+    background-color: rgb(178, 213, 213);
+    color:black;
+    font-size: 1.72em;
+   font-weight: 400;
+   z-index: 1;
+}
+.three{
+    color:black;
+    font-size: 1.72em;
+   font-weight: 400;
+    padding: 15px;
+    width:75vw;
+}
+/* why the veiwport heights r not summing upto 100???????? */
+.header{
+   height:15vh;
+    background-color: rgb(152, 195, 88);
+}
+.article{
+    height:60vh;
+    background-color: white;
+}
+.footer{
+    height:15vh;
+    background-color: rgb(152, 195, 88);
+}
